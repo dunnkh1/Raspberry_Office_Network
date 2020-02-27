@@ -12,7 +12,7 @@ File sharing and guidelines for setting up Raspberry Pi office network
 ### Step 3
 Using an SD card/card reader and [Rufus](https://rufus.ie/). Transfer the Buster Lite iso onto the SD card and insert SD card into the host Raspberry Pi.
 
-[If you need some more clarity on the above process click here]()("Entire process to be documented with images etc")
+[If you need some more clarity on the above process click here]()(/StepbyStep.docx)
 
 
 

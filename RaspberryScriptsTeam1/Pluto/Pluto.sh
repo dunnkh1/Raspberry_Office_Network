@@ -4,7 +4,7 @@ accountCreation(){
 	#at some point this will be updated to create the users accounts from a list of names in a csv this will allow for the ability to scale quickly
 	#the user creation will also be added to its own script so if a new user is ever added to the csv you can just run the account creation script to add them instead of running this one again
 	#but thats a plan for later maybe in a week or twoish
-	PASSWORD="P@ssw0rd"
+	PASSWORD="secret3"
 	#27/02/2020 note - jonathon
 	#rework password at some point its not very secure :|
 	echo 'creating user accounts'

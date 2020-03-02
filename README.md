@@ -25,18 +25,21 @@ RaspberryScripts
 			userCreation.sh
 			update.sh (place in cron daily?)
 			security.sh (ssh config / remove unwanted software and services / etc.)
+			VIP - 192.168.1.1 IP - 10.118.2.72 Port 4096
 		Poseidon
 			initialPoseidonSetup.sh
 			userCreation.sh
 			webserverSetup.sh
 			update.sh (place in cron daily?)
 			security.sh (ssh config / remove unwanted software and services / etc.)
+			VIP - 192.168.1.2
 		Hades
 			initialHadesSetup.sh
 			userCreation.sh
 			update.sh (place in cron daily?)
 			security.sh (ssh config / remove unwanted software and services / etc.)
+			VIP - 192.168.1.3
 	Team 1
-*		Mars
-		Apollo
-		Pluto
+*		Apollo - VIP 192.168.0.10 - IP 10.118.0.40 Port 22345
+		Mars - IP 192.168.0.11	
+		Pluto - IP 192.168.0.12

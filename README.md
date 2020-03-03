@@ -14,6 +14,14 @@ Using an SD card/card reader and [Rufus](https://rufus.ie/). Transfer the Buster
 
 [If you need some more clarity on the above process click here](/StepbyStep.docx)
 
+### Step 4
+Find the Raspberry Pi by using the command [ping raspberrypi.local](https://www.raspberrypi.org/documentation/remote-access/ip-address.md). This will reveal the IP address of the PI at which point you can SSH to it and set a new hostname. 
+
+### Step 5
+Set up [new users](https://www.tecmint.com/add-users-in-linux/),set [passwords](https://www.cyberciti.biz/faq/linux-set-change-password-how-to/) and setup/add users to [groups](https://www.geeksforgeeks.org/groupadd-command-in-linux-with-examples/) e.g//Sudo group.
+
+### Step 6
+
 
 
 

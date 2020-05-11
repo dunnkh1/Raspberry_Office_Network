@@ -1,0 +1,41 @@
+Email server setup:
+- Guide used: https://raspberrytips.com/mail-server-raspberry-pi/
+
+- Currently no domain name (placholder = testdomain.com)
+
+- Don't have a static public IP address (Need to figure that out)
+
+- Need a domain for DNS zone configuration 
+
+- Email log file: /var/log/mail.log
+
+- Recieved emails in theory should go to a users Maildir folder
+
+Installed software:
+
+Postfix: Sending/recieving email
+
+Dovecot: POP/IMAP management
+
+Telnet: Email testing
+
+Mailutils: Simpler testing
+
+Postfix config file: etc/postfix/main.cf
+Postfix secure access file (Domain block list): etc/postfix/helo_access
+Postfix config proccesing: etc/postfix/master.cf
+
+Dovecot config file: /etc/dovecot/dovecot.conf
+Dovecot subfolder which holds easy to find configuration options: /etc/dovecot/conf.d/
+Handy subfolder files: 
+Dovecot mail - /etc/dovecot/conf.d/10-mail.conf
+Dovecot master - /etc/dovecot/conf.d/10-master.conf
+Dovecot auth - /etc/dovecot/conf.d/10-auth.conf
+Dovecot logs(uses main syslog): /var/log/syslog
+
+Dovecot IMAP connection: telnet localhost 143
+SSL certificate has been generated
+
+
+
+
